@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+    <title>Assets</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+        * {
+            font-family: 'Fira Code', monospace;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: #f3f3f6;
+        }
+
+        .main {
+            box-shadow: 0 0 3px 2px #dde;
+            border-radius: 6px;
+            padding: 20px;
+            display: flex;
+            max-width: 550px;
+        }
+
+        .hello-img {
+            width: 200px;
+            height: 200px;
+            background-image: url(/img/hello.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+        }
+
+        .hello-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="main">
+            <div class="hello-img"></div>
+            <div class="hello-text">
+                <h3>Hello, Wellcome</h3>
+                <p>This website is used to share assets to be used by the web.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
